@@ -4,11 +4,19 @@
       <img src="{{ photoCover }}" alt="" />
     </div>
     <div class="small-card__title">
-      <h1>
-        <a [routerLink]="['content', id]">
-          {{ descriptionCard }}
-        </a>
-      </h1>
+      <div class="content">
+        <h1>
+          <a [routerLink]="['content', id]">
+            {{ title }}
+          </a>
+        </h1>
+        @if (descriptionCard.length > 200) {
+          <p>{{descriptionCard| slice:0:200}}... <br><br><a [routerLink]="['content', id]">read more...</a></p>
+          
+        }@else {
+          <p>{{descriptionCard}}
+        }
+      </div>
     </div>
   </div>
   <hr />

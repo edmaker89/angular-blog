@@ -1,6 +1,11 @@
 .container__small-card {
     min-width: 200px;
 }
+
+.content {
+    margin-left: 24px;
+}
+
 .container__small-card-content {
     display: flex;
 }
@@ -19,9 +24,8 @@ a:hover {
 
 h1 {
  font-size:  16px;
- padding-right: 20px;
- padding-left: 20px;
- font-weight: 500;
+ font-weight: 700;
+ margin-bottom: 12px;
 }
 
 .small-card__title {

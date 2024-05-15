@@ -9,14 +9,14 @@ export const dataFake = [
     { 
         "id": 2, 
         "photo": "https://legadodamarvel.com.br/wp-content/uploads/2022/07/Perto-da-estreia-polemica-faz-fas-exigirem-a-demissao-de-astro-de-Thor-4-legadodamarvel.webp", 
-        "title": "Thor", 
+        "title": "Thor, the hero is more potent", 
         "description": "Thor is a god-like superhero based on the Norse deity of the same name. He wields the enchanted hammer Mjolnir and is a member of the Avengers.", 
         "type": 'small'
     }, 
     { 
         "id": 3, 
         "photo": "https://img.odcdn.com.br/wp-content/uploads/2021/03/Chris-Evans-como-Capitao-America-scaled-e1701179708971.jpg", 
-        "title": "Captain America", 
+        "title": "Captain America, number #1 avenger", 
         "description": "Captain America is a patriotic superhero who first appeared in Captain America Comics #1 in 1941. He is known for his shield and leadership skills.",
         "type": 'small' 
     },
