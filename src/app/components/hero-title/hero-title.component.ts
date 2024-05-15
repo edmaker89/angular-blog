@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './hero-title.component.html',
-  styleUrl: './hero-title.component.css'
+  styleUrls: ['./hero-title.component.css' ,'./hero-title.responsive.component.css']
 })
 export class HeroTitleComponent {
 title: string= 'THE BLOG'
