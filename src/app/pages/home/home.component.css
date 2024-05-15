@@ -10,5 +10,11 @@
 }
 
 .articles__main {
-    margin-right: 2rem;
+    min-width: 550px;
+    margin-right: 1rem;
+    width: 1fr;
+}
+
+.articles__other {
+    min-width: 150px;
 }

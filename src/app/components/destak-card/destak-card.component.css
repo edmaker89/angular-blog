@@ -1,6 +1,4 @@
 .container__destak-card{
-    width: 500px;
-    height: 430px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
