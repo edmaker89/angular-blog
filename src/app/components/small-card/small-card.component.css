@@ -1,0 +1,36 @@
+.container__small-card {
+    width: 700px;
+    min-width: 200px;
+}
+.container__small-card-content {
+    display: flex;
+}
+a {
+    text-decoration: none;
+    transition: 200ms;
+}
+
+a:hover {
+    color: rgb(40, 120, 240);
+}
+
+h1 {
+ font-size:  16px;
+ padding-right: 20px;
+ padding-left: 20px;
+ font-weight: 500;
+}
+
+.small-card__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 0.5px rgb(61, 61, 61);
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}

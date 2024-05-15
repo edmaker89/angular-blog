@@ -1,0 +1,19 @@
+.container__hero-title {
+    color: white;
+    text-align: center;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 0.5px rgb(61, 61, 61);
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+
+h1 {
+   margin-top: 5px;
+   margin-bottom: 5px;
+   font-size: 12rem;
+}

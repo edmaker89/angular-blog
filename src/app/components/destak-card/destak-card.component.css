@@ -1,0 +1,32 @@
+.container__destak-card{
+    width: 500px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    margin-right: 10px;
+}
+
+.destak-card__picture > img {
+    max-width: 100%;
+}
+.destak-card__title > h2 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.destak-card__description > p {
+    margin-top: 10px;
+    color: grey;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    transition: 200ms;
+}
+
+a:hover {
+    color: rgb(40, 120, 240);
+}
