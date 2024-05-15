@@ -9,6 +9,10 @@ a {
     transition: 200ms;
 }
 
+.small-card__picture > img {
+    max-width: 300px;
+}
+
 a:hover {
     color: rgb(40, 120, 240);
 }

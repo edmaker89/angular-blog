@@ -1,16 +1,15 @@
 <div class="container__small-card">
-<div class="container__small-card-content">
+  <div class="container__small-card-content">
     <div class="small-card__picture">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtrMXNGrJKVnuIRfxRpGR-Crzw1et3EeQeEw&usqp=CAU"
-            alt="">
+      <img src="{{ photoCover }}" alt="" />
     </div>
     <div class="small-card__title">
-        <h1>
-            <a href="">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia magni nemo illo magnam. Illum tempora nihil ipsum harum quo! Reiciendis maxime illo voluptate sequi laudantium commodi esse at harum eos!
-            </a>
-        </h1>
+      <h1>
+        <a [routerLink]="['content', id]">
+          {{ descriptionCard }}
+        </a>
+      </h1>
     </div>
-</div>
-<hr>
+  </div>
+  <hr />
 </div>
