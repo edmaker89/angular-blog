@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./hero-title.component.css' ,'./hero-title.responsive.component.css']
 })
 export class HeroTitleComponent {
-title: string= 'THE BLOG'
+title: string= 'Marvel News'
 
 }
